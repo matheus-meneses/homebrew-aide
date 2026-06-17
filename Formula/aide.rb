@@ -2,28 +2,28 @@
 class Aide < Formula
   desc "Personal work assistant CLI"
   homepage "https://github.com/matheus-meneses/aide"
-  version "0.2.0-rc.13"
+  version "0.2.0"
   license "BUSL-1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0-rc.13/aide_darwin_arm64"
-      sha256 "b0ca88d7dcfec7178730f1f914133dc954cc4d55f8fc70126537fa000c3e7b11"
+      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0/aide_darwin_arm64"
+      sha256 "70595cdadc7194c7786a3923eddc02d6870c2d3c34bda71cb6513498bfb1b9ae"
     end
     on_intel do
-      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0-rc.13/aide_darwin_amd64"
-      sha256 "c7ed7fea5726b4cc2c0ca301f78225c646ba1330f9101e891ebd2f00c01e096f"
+      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0/aide_darwin_amd64"
+      sha256 "2008ae688fec294c85a142cf3db7f447f95ec26f796f04d2037ff37aa6fed30f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0-rc.13/aide_linux_arm64"
-      sha256 "f4ef0ad628f7fad00c24b0f0ad1b3420120f1f058fe4e22a6fd364060fe01191"
+      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0/aide_linux_arm64"
+      sha256 "069fc29f80d2c33a8117116f756d0e58a507d54ece09472be84c9599123ad1d1"
     end
     on_intel do
-      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0-rc.13/aide_linux_amd64"
-      sha256 "cb61a713962dff615664a9a1ff80b499322a8987998d1c36f66ecf7ae789d17b"
+      url "https://github.com/matheus-meneses/aide/releases/download/v0.2.0/aide_linux_amd64"
+      sha256 "1e096c72d2c517df6e274561bb7ca0e59c7fdf7f5233bc13979f2cf43acf4469"
     end
   end
 
